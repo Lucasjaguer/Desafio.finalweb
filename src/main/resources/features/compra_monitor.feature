@@ -5,4 +5,4 @@ Feature: Compra de Monitor
     And adiciono um monitor ao carrinho
     And vou para o carrinho
     And finalizo a compra preenchendo os dados
-  ○  Then a compra é realizada com sucesso
+    Then a compra é realizada com sucesso

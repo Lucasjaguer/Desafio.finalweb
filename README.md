@@ -1,4 +1,4 @@
-# Projeto de Automação de Testes com Java, Cucumber e Gherkin
+# Projeto de Automação de Testes 
 
 Este projeto é uma automação de testes para um fluxo de compras em uma página web. Utiliza **Java**, **Cucumber** e **Gherkin** para a criação e execução de testes automatizados de comportamento (BDD - Behavior Driven Development).
 

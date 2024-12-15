@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="35.438" tests="3" skipped="0" failures="0" errors="0">
+<testcase classname="Criar um cadastro de cliente válido" name="criar cadastro de cliente" time="10.69">
+<system-out><![CDATA[
+Dado que estou na pagina inicial............................................passed
+Dado que clico no botão signup..............................................passed
+E digito um nome no campo name..............................................passed
+E digito uma senha no campo password........................................passed
+Quando clico no botão signup................................................passed
+Entao deve exibir um aviso de sucesso.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Fazer login com usuário Válido" name="criar cadastro de cliente" time="9.744">
+<system-out><![CDATA[
+Dado que estou na pagina inicial............................................passed
+Dado que clico no menu Log In...............................................passed
+E digito um usuário válido..................................................passed
+E digito uma senha válida...................................................passed
+Quando clico no botão Log in................................................passed
+Entao deve exibir nome logado...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Fazer a compra de um produto" name="Adicionar um item no carrinho de compras" time="14.65">
+<system-out><![CDATA[
+Dado que estou na pagina inicial............................................passed
+Dado que clico na categoria monitores.......................................passed
+E clico no produto escolhido................................................passed
+E clico em adicionar para o carrinho........................................passed
+E valido a mensagem de confirmação..........................................passed
+E que clico no menu de carrinho.............................................passed
+E clico em fazer pedido.....................................................passed
+E preencho os campos do formulário..........................................passed
+Quando clicar no botão comprar..............................................passed
+Entao deve exibir uma mensagem de sucesso...................................passed
+]]></system-out>
+</testcase>
+</testsuite>
